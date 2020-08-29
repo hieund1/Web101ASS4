@@ -1,0 +1,601 @@
+/* styling for the body */
+/* styling for mobile <= 767px*/
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  word-spacing: normal;
+  padding: 15px 15px;
+}
+
+strong {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+nav, p {
+  font-size: 1rem;
+}
+
+/* Menu section */
+#menu-bar {
+  background-color: white;
+}
+
+/* Set the border color for the menu toggler icon*/
+.custom-toggler .navbar-toggler {
+  border-color: none;
+}
+
+/* Setting the stroke to black*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* the Home item has yellow-like color */
+#menu-home {
+  color: rgb(255, 180, 27);
+}
+
+#menu-search-icons,
+.navbar-nav a {
+  color: black;
+}
+
+#navbarTogglerMenu {
+  width: 20px;
+}
+
+#menu-crevea {
+  color: DodgerBlue;
+  margin: auto;
+  position: absolute;
+  left: 37.5%;
+  top: 7.5px;
+}
+
+#menu-search-icon {
+  color: black;
+  position: absolute;
+  top: 20px;
+  right: 7.5%;
+}
+
+/* padding for section containers */
+.about-us-container, .news-container, .contact-container, .footer-row, .our-biz-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* padding for the About Us container*/
+.about-us-container {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+/* styling for the div hosting the About Us heading line */
+.div-about-us-head-line {
+  border-bottom: 4px solid DodgerBlue;
+  width: 35px;
+  position: absolute;
+  top: 12px;
+}
+
+/* styling for the div hosting the About Us text */
+.div-about-us-head-text {
+  display: inline-block;
+  padding-left: 45px;
+}
+
+/* styling for the Our Biz section */
+.our-biz-container {
+  position: relative;
+}
+
+#div-communication-img {
+  position: relative;
+}
+
+#img-communication {
+  height: 350px;
+}
+
+#div-communication-img strong {
+  font-size: 1.5rem;
+}
+
+#div-our-biz-head-line {
+  border-bottom: 4px solid white;
+  width: 35px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+
+#our-biz {
+  position: absolute;
+  left: 130px;
+  top: 40px;
+  color: white;
+}
+
+/* Styling for tiny images */
+.img-tiny {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.handshake,
+.book {
+  position: absolute;
+  left: 30px;
+}
+
+.handshake {
+  top: 90px;
+}
+
+.book {
+  top: 230px;
+}
+
+/* Styling for text in Communication box */
+.div-our-biz-communication {
+  position: absolute;
+  left: 80px;
+  color: white;
+  font-size: 10px;
+}
+
+/* Set the top value for the Education text div */
+#div-communication {
+  top: 65px;
+}
+
+/* Styling for text in Business box */
+#div-biz {
+  top: 200px;
+}
+
+/* styling for the div hosting the News heading line */
+.news-container {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#news-headline-container {
+  position: relative;
+}
+
+.div-news-head-line {
+  border-bottom: 4px solid DodgerBlue;
+  width: 35px;
+  position: absolute;
+  top: 40px;
+}
+
+/* styling for the div hosting the News text */
+.div-news-head-text {
+  display: inline-block;
+  padding-left: 45px;
+  position: absolute;
+  top: 30px;
+}
+
+/*styling for the latest news text line  */
+#latest-news-headline {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  margin-top: -10px;
+  width: 200px;
+}
+
+.news-item {
+  padding-top: 40px;
+}
+
+.news-image {
+  height: 200px;
+  margin-top: 5px;
+  border: 1px solid silver;
+}
+
+.news-text {
+  width: 100%;
+  border: 1px solid silver;
+  margin-right: 0%;
+  padding: 5px 5px 10px 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.news-text p {
+  margin-top: 7px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+#new3-text-3-sub-text {
+  font-size: 10px;
+}
+
+/* Contacts section */
+.contact-container {
+  position: relative;
+  margin-top: 80px;
+}
+
+#div-contact-head-line {
+  border-bottom: 4px solid DodgerBlue;
+  width: 35px;
+  position: absolute;
+  top: 12px;
+}
+
+#div-contact-head-text {
+  display: inline-block;
+  padding-left: 45px;
+}
+
+/* make input fields to display as block so they are presented one below another */
+.input-fields {
+  font-size: 10px;
+  width: 100%;
+  margin-top: 7.5px;
+  margin-right: -1.5%;
+}
+
+#message {
+  width: 100%;
+  margin-top: 15px;
+  margin-right: 0%;
+}
+
+/* Send Message button */
+#send-button-div {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+#div-contact-form {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#send-button {
+  background-color: #ffc107;
+  color: white;
+  border-radius: 5%;
+  border: 2px solid #ffc107;
+  font-size: 13px;
+  height: 30px;
+  width: 36%;
+  position: absolute;
+  left: 32%;
+  top: 5px;
+}
+
+#map-img {
+  padding: 20px 0 50px 0;
+}
+
+/* Footer section */
+footer {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.footer-row {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer-info-container {
+  position: relative;
+  font-size: 15px;
+}
+
+.footer-info-container strong {
+  font-size: 1.25rem;
+}
+
+.footer-info-container span {
+  font-weight: bold;
+}
+
+.footer-info-container p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.footer-info-container .footer-crevea,
+.footer-category,
+.footer-language,
+.footer-get-our-news {
+  float: left;
+  color: #D9D9D9;
+  padding-top: 10px;
+}
+
+.footer-crevea p {
+  font-size: 15px;
+}
+
+.list {
+  padding-left: 0px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.li-category {
+  /* list-style-type: none; */
+}
+
+.li-category a {
+  color: #D9D9D9;
+  text-decoration: none;
+}
+
+#our-news {
+  margin-right: 0;
+}
+
+#footer-input-email {
+  color: grey;
+  background: none;
+  border: none;
+  padding-top: 10px;
+}
+
+.footer-get-our-new {
+  border-bottom: 1px solid silver;
+  position: relative;
+}
+
+#footer-copy-rights {
+  border-top: 1px solid silver;
+  text-align: center;
+  color: #D9D9D9;
+  font-size: 10px;
+}
+
+#copyright-line {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#submit {
+  position: absolute;
+  right: 15px;
+  margin-top: 5px;
+  border-radius: 5%;
+  border: 1px solid silver;
+}
+
+#input-email-container {
+  border-bottom: 1px solid silver;
+}
+/* end styling for mobile view */
+
+/* styling for tablet (screensize >=768px) */
+@media (min-width: 768px) {
+  body {
+  padding: 30px 30px;
+}
+
+  strong {
+    font-size: 1.125rem;
+  }
+
+  /* styling for the div containing the menu */
+  #menu-bar {
+    background-color: DodgerBlue;
+    height: 65px;
+  }
+
+  /* styling for the company name list item */
+  #menu-crevea {
+    padding-left: 7.5%;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+  }
+
+  #menu-search-icon,
+  .navbar-nav a {
+    color: #D9D9D9;
+  }
+
+  #search {
+    padding-left: 10px;
+  }
+
+  #menu-search-icon {
+    position: absolute;
+    top: 25px;
+    right: 2.5%;
+  }
+
+  /* All containers except for Our-biz to have left and right paddings of 7.5% */
+  .about-us-container, .news-container, .contact-container, .footer-row {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  /* About Us section */
+  .about-us-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* Our business section  */
+  .our-biz-container {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
+
+  #img-education {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  #img-communication {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .div-our-biz-communication {
+    position: absolute;
+    left: 12.5%;
+  }
+
+  #our-biz {
+    position: absolute;
+    left: 130px;
+  }
+
+  .handshake,
+  .book {
+    position: absolute;
+    left: 5%;
+  }
+
+  .handshake {
+    top: 80px;
+  }
+
+  .book {
+    top: 220px;
+  }
+
+  /* News section (need to increase containers size)*/
+  .news-container {
+    position: relative;
+  }
+
+  .news-item {
+    padding-top: 0px;
+  }
+  /* Contacts section */
+  .input-fields {
+    width: 100%;
+    margin-right: -1.5%;
+  }
+
+  #message {
+    width: 100%;
+  }
+
+  /* Make the Send button center-aligned */
+  #send-button {
+    width: 40%;
+    left: 30%;
+  }
+
+  footer {
+    swidth: 100%;
+  }
+
+  #footer-copy-rights {
+    margin-top: 10px;
+  }
+}
+/* end styling for tablet min-width 768 */
+
+  /* start styling for laptop */
+  /* All containers except for Our-biz to have left and right paddings of 20% */
+  @media(min-width: 992px) {
+    .about-us-container, .news-container, .contact-container, .footer-row {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    strong {
+      font-size: 1.5rem;
+      /* 24px */
+    }
+
+    #menu-crevea {
+      padding-left: 20%;
+    }
+
+    #menu-search-icon {
+      position: relative;
+      top: 0px;
+      /* right: 7.5%; */
+    }
+
+    /* Our business section */
+    .our-biz-container {
+      margin-top: 40px;
+    }
+
+    #img-education {
+      margin-right: -15px;
+      width: calc(100% + 15px);
+    }
+
+    #img-communication {
+      margin-left: -15px;
+      width: calc(100% + 15px);
+      height:100%;
+    }
+
+    .handshake {
+      position: absolute;
+      top: 70px;
+      left: -15px;
+    }
+
+    .book {
+      position: absolute;
+      top: 130px;
+      left: -15px;
+    }
+
+    #div-our-biz-head-line {
+      position: absolute;
+      top: 50px;
+      left: 4%;
+    }
+
+    #our-biz {
+      position: absolute;
+      top: 37px;
+      left: 80px;
+    }
+
+    /* Styling for text in Communication box */
+    .div-our-biz-communication {
+      position: absolute;
+      left: 4%;
+      color: white;
+      font-size: 10px;
+    }
+
+    /* Set the top value for the Education text div */
+    #div-communication {
+      top: 65px;
+    }
+
+    /* Styling for text in Business box */
+    #div-biz {
+      top: 125px;
+    }
+
+    /* apply mergin to have the Send Message button appear in the center */
+    #send-button {
+      position: absolute;
+      width: 120px;
+      left:0%;
+      margin-left: calc(100% - 60px);
+    }
+  }

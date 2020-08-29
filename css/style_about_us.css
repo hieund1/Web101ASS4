@@ -1,0 +1,303 @@
+/* styling for the body */
+/* styling for mobile < 768px*/
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  word-spacing: normal;
+  padding: 15px 15px;
+}
+
+strong {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+nav, p, span {
+  font-size: 1rem;
+}
+
+/* Menu section */
+#menu-bar {
+  background-color: white;
+}
+
+/* Set the border color for the menu toggler icon*/
+.custom-toggler .navbar-toggler {
+  border-color: none;
+}
+
+/* Setting the stroke to black*/
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* the Home item has yellow-like color */
+#menu-home, #website {
+  color: rgb(255, 180, 27);
+}
+
+#menu-search-icons,
+.navbar-nav a {
+  color: black;
+}
+
+#navbarTogglerMenu {
+  width: 20px;
+}
+
+#menu-crevea {
+  color: DodgerBlue;
+  margin: auto;
+  position: absolute;
+  left: 37.5%;
+  top: 7.5px;
+}
+
+#menu-search-icon {
+  color: black;
+  position: absolute;
+  top: 20px;
+  right: 7.5%;
+}
+
+.key, .value span {
+  display: block;
+  padding: 15px 0;
+}
+
+.value a {
+  text-decoration: none;
+}
+
+/* padding for section containers */
+.about-us-container, .footer-row {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* padding for the About Us container*/
+.about-us-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+/* styling for the div hosting the About Us heading line */
+.about-us-line {
+  border-bottom: 4px solid DodgerBlue;
+  width: 35px;
+  margin:auto;
+}
+
+.about-us-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#goal {
+  padding-top: 50px;
+}
+
+ #team-image {
+   width: 33%;
+   height: 33%;
+ }
+
+ #div-team-img {
+   padding-top: 40px;
+ }
+
+/* Footer section */
+footer {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.footer-row {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.footer-info-container {
+  position: relative;
+  font-size: 15px;
+}
+
+.footer-info-container strong {
+  font-size: 1.25rem;
+}
+
+.footer-info-container span {
+  font-weight: bold;
+}
+
+.footer-info-container p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.footer-info-container .footer-crevea,
+.footer-category,
+.footer-language,
+.footer-get-our-news {
+  float: left;
+  color: #D9D9D9;
+  padding-top: 10px;
+}
+
+.footer-crevea p {
+  font-size: 15px;
+}
+
+.list {
+  padding-left: 0px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.li-category {
+  /* list-style-type: none; */
+}
+
+.li-category a {
+  color: #D9D9D9;
+  text-decoration: none;
+}
+
+#our-news {
+  margin-right: 0;
+}
+
+#footer-input-email {
+  color: grey;
+  background: none;
+  border: none;
+  padding-top: 10px;
+}
+
+.footer-get-our-new {
+  border-bottom: 1px solid silver;
+  position: relative;
+}
+
+#footer-copy-rights {
+  border-top: 1px solid silver;
+  text-align: center;
+  color: #D9D9D9;
+  font-size: 10px;
+}
+
+#copyright-line {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+#submit {
+  position: absolute;
+  right: 15px;
+  margin-top: 5px;
+  border-radius: 5%;
+  border: 1px solid silver;
+}
+
+#input-email-container {
+  border-bottom: 1px solid silver;
+}
+/* end styling for mobile view */
+
+/* styling for tablet (screensize >=768px) */
+@media (min-width: 768px) {
+  body {
+  padding: 30px 30px;
+}
+
+  strong {
+    font-size: 1.125rem;
+  }
+
+  /* styling for the div containing the menu */
+  #menu-bar {
+    background-color: DodgerBlue;
+    height: 65px;
+  }
+
+  /* styling for the company name list item */
+  #menu-crevea {
+    padding-left: 7.5%;
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+  }
+
+  #menu-search-icon,
+  .navbar-nav a {
+    color: #D9D9D9;
+  }
+
+  #search {
+    padding-left: 10px;
+  }
+
+  #menu-search-icon {
+    position: absolute;
+    top: 25px;
+    right: 2.5%;
+  }
+
+  /* About Us section */
+  .about-us-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .key, .value span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .key {
+      width: 17.5%;
+    }
+
+  #footer-copy-rights {
+    margin-top: 10px;
+  }
+}
+/* end styling for tablet min-width 768 */
+
+  /* start styling for laptop */
+  /* All containers except for Our-biz to have left and right paddings of 20% */
+  @media(min-width: 992px) {
+    .about-us-container, .footer-row {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    strong {
+      font-size: 1.5rem;
+      /* 24px */
+    }
+
+    #menu-crevea {
+      padding-left: 20%;
+    }
+
+    #menu-search-icon {
+      position: relative;
+      top: 0px;
+      /* right: 7.5%; */
+    }
+
+    #goal, #staff {
+      padding-top: 50px;
+    }
+
+    .key {
+        width: 30%;
+      }
+  }
